@@ -98,6 +98,10 @@ h1, h2, h3, h4, h5 {
 border: 2px solid blue;
 width: 40%;;
 }
+.right{
+	border: 2px solid blue;
+	width: 40%;;
+	}
 
 .top-content{
 	border-top: 2px solid black;
