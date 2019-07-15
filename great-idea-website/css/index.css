@@ -79,29 +79,36 @@ h1, h2, h3, h4, h5 {
 }
 
 .head-container{
-	border: 2px solid red;
 	width: 100%;
+	margin-top: 30px;
 	/* height: 50%; */
 	display: inline-block
+	
+}
+
+.head-container div{
+	display: inline-block;
 }
 
 .left{
 	width: 20%;
-	height: 60%;
 	font-size: 70px;
-	border: 2px solid green;
-	display: inline-block
 	padding: 90px;
 }
 
-.right{
-border: 2px solid blue;
-width: 40%;;
+.head-container button{
+	width: 130px;
+	height: 30px;
+	background-color: white;
 }
+
 .right{
-	border: 2px solid blue;
-	width: 40%;;
-	}
+margin-left: 360px;
+}
+
+.round-img{
+	width: 95%;
+}
 
 .top-content{
 	border-top: 2px solid black;
@@ -127,6 +134,7 @@ width: 40%;;
 }
 
 .contact{
+	border-top: 2px solid black;
 	padding: 20px;
 }
 
